@@ -6,7 +6,7 @@
 /*   By: ismirand <ismirand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 20:44:50 by ismirand          #+#    #+#             */
-/*   Updated: 2023/10/22 21:01:06 by ismirand         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:27:32 by ismirand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	ft_printf(const char *str, ...)
 }
 
 /* 
-//cc ft_printf.c ft_convert.c ft_putbase.c ft_putchar.c ft_putnbr.c 
+//cc ft_printf.c ft_convert.c ft_putbase.c ft_putchar.c ft_putnbr.c \
 ft_unsint.c ft_putstr.c ft_strlen.c ft_pointer.c
 int	main(void)
 {
@@ -55,5 +55,7 @@ int	main(void)
 	j = printf("oi%% %x %s %i %u", 255, s, 42, u);
 	printf("\n%i", j);
 }
+//0 antes do numero transforma em octal
+//0x antes transforma em hexadecimal
 //%u -> transforma em unsigned int (0 = 4294967295), e vai
 // subtraindo o num desse valor, ate o -4294967296 ser 0 dnv */
