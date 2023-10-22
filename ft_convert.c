@@ -28,10 +28,7 @@ int	ft_convert(const char *str, va_list info)
 	if (str[i] == 'u')
 		ret += ft_unsint(va_arg(info, unsigned int));
 	if (str[i] == '%')
-	{
-		write (1, "%%", 1);
-		ret++;
-	}
+		ret += write (1, "%%", 1);
 	if (str[i] == 'p')
 		ret += ft_pointer(va_arg(info, void *));
 	if (str[i] == 'x')
