@@ -6,11 +6,11 @@
 /*   By: ismirand <ismirand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 21:43:54 by ismirand          #+#    #+#             */
-/*   Updated: 2023/10/22 19:28:13 by ismirand         ###   ########.fr       */
+/*   Updated: 2023/11/16 20:17:26 by ismirand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 static int	ft_count(int n)
 {
